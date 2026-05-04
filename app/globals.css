@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-purple: #60418d;
+  --color-orange: #f46e00;
+  --color-teal: #2ad8ae;
+  --color-gold: #ffbd03;
+  --font-sans: var(--font-poppins);
+  --font-sans: var(--font-poppins);
+}
+
+body {
+  background: var(--color-white);
+  color: #171717;
+  font-family: var(--font-poppins), sans-serif;
+}
