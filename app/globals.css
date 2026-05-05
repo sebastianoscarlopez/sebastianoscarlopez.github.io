@@ -5,12 +5,18 @@
   --color-orange: #f46e00;
   --color-teal: #2ad8ae;
   --color-gold: #ffbd03;
-  --font-sans: var(--font-poppins);
+  --color-deep: #2a1c45;
+  --color-ink: #1a1320;
+  --color-cream: #f6f4ef;
+  --color-panel: #f0ebe0;
   --font-sans: var(--font-poppins);
 }
 
+@keyframes pulse-ring {
+  0%, 100% { box-shadow: 0 0 0 4px rgba(96, 65, 141, 0.25); }
+  50%     { box-shadow: 0 0 0 9px rgba(96, 65, 141, 0); }
+}
+
 body {
-  background: var(--color-white);
-  color: #171717;
   font-family: var(--font-poppins), sans-serif;
 }
