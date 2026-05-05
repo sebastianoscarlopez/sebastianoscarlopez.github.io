@@ -55,7 +55,7 @@ export default function LandingBody() {
         <div>© 2026 — Sebastián Oscar López</div>
         <div className="flex gap-6">
           <a href="#" className="text-ink/70 no-underline hover:text-purple">github</a>
-          <a href="https://linkedin.com/in/sebastianoscarlopez" className="text-ink/70 no-underline hover:text-purple">linkedin</a>
+          <a href="https://linkedin.com/in/sebastian-oscar-lopez" className="text-ink/70 no-underline hover:text-purple">linkedin</a>
           <a href="mailto:hi@sebastianoscarlopez.dev" className="text-ink/70 no-underline hover:text-purple">email</a>
         </div>
       </footer>
